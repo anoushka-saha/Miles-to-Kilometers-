@@ -1,3 +1,8 @@
+#Anoushka Saha
+#Day 27 Practice
+#Intro to Tkinter
+#July 1st, 2024
+
 import tkinter
 
 #New window using Tk class
