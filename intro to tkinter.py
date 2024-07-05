@@ -15,6 +15,9 @@ window.title("My First GUI Program")
 #Setting size of window
 window.minsize(width = 500, height = 300)
 
+#Adding padding around all elements
+window.config(padx =20, pady =20)
+
 #Initializing label with text
 my_label = Label(text = "I am a label", font = ("Arial", 24, "bold"))
 
@@ -26,6 +29,9 @@ my_label.pack()
 #How to configure and change/update properties of previously created component
 my_label["text"] = "New Text"
 my_label.config(text = "New Text")
+
+#Assigning specific location to element
+my_label.place(x = 10, y = 10)
 
 #Button
 def button_clicked():
